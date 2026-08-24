@@ -24,7 +24,7 @@ class Ball:
                                   self.radius,
                                   self.color)
 
-    def on_update(self):
+    def update(self):
         # Move the ball
         self.position_y += self.change_y
         self.position_x += self.change_x
